@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS user_two;
+CREATE TABLE IF NOT EXISTS  user_two(
+  id int(20) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(20),
+  password VARCHAR(50)
+);
